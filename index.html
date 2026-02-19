@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajat Goyal | CEO Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#home" class="brand">Rajat Goyal</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <p class="eyebrow">Professional CEO</p>
+        <h1>Building high-growth companies with clarity and purpose.</h1>
+        <p class="hero-copy">
+          I am Rajat Goyal, a strategic business leader focused on transforming
+          ambitious ideas into sustainable organizations through innovation,
+          operational excellence, and people-first leadership.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2>About</h2>
+        <p>
+          With more than a decade of executive leadership across technology and
+          enterprise services, I specialize in scaling teams, launching new
+          markets, and driving measurable growth. My approach combines decisive
+          strategy with transparent communication and disciplined execution.
+        </p>
+        <div class="stats-grid">
+          <article class="card">
+            <h3>15+ Years</h3>
+            <p>Leadership and executive management experience.</p>
+          </article>
+          <article class="card">
+            <h3>4x Growth</h3>
+            <p>Average revenue increase across key business units.</p>
+          </article>
+          <article class="card">
+            <h3>Global Teams</h3>
+            <p>Built and mentored cross-functional teams worldwide.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Digital Transformation Program</h3>
+            <p>
+              Led a company-wide modernization initiative, reducing operating
+              costs by 30% and improving customer retention.
+            </p>
+          </article>
+          <article class="card">
+            <h3>International Expansion Strategy</h3>
+            <p>
+              Designed and executed go-to-market plans in three new regions,
+              achieving profitability in under 18 months.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Leadership Development Academy</h3>
+            <p>
+              Created a high-impact internal program to cultivate future leaders
+              and strengthen organizational culture.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="blog" class="section container">
+        <div class="section-heading">
+          <h2>Blog</h2>
+          <p>Insights on leadership, strategy, and growth.</p>
+        </div>
+        <div class="grid">
+          <article class="card blog-post">
+            <p class="meta">May 2026 · Leadership</p>
+            <h3>Why Clarity is the CEO's Greatest Advantage</h3>
+            <p>
+              A practical framework for setting vision, aligning teams, and
+              making faster strategic decisions.
+            </p>
+            <a href="#" aria-label="Read article">Read more →</a>
+          </article>
+          <article class="card blog-post">
+            <p class="meta">April 2026 · Strategy</p>
+            <h3>Scaling Without Losing Culture</h3>
+            <p>
+              How to preserve core values while expanding teams, products, and
+              market reach.
+            </p>
+            <a href="#" aria-label="Read article">Read more →</a>
+          </article>
+          <article class="card blog-post">
+            <p class="meta">March 2026 · Operations</p>
+            <h3>From Vision to Execution in 90 Days</h3>
+            <p>
+              A sprint-based operating rhythm that turns strategic objectives
+              into tangible outcomes.
+            </p>
+            <a href="#" aria-label="Read article">Read more →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2>Contact</h2>
+        <p>
+          Interested in partnerships, speaking engagements, or board advisory?
+          Let’s connect.
+        </p>
+        <form class="contact-form" action="#" method="post">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="How can I help?"
+              required
+            ></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p id="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Rajat Goyal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
